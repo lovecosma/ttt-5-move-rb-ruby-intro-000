@@ -16,11 +16,6 @@ def move (board, index, player = "X")
 update_array_at_with(board, index, player)
 end
 
-
-def input_to_index(userInput)
-index = userInput.to_i - 1
-end
-
 def update_array_at_with(arr, newIndex, value)
 arr[newIndex] = value
 end
